@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Home Made</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="Home-Made.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://kit.fontawesome.com/yourcode.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Rowdies&display=swap" rel="stylesheet">
+  
+  
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    
+</head>
+<body>
+
+
+
+
+          <nav class="navbar navbar-dark navbar-expand-sm fixed-top">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <a href="Home-Made.html"><img src="whiteHM.png" height="90px" width="120px" ></a>
+                <div class="collapse navbar-collapse" id="Navbar">
+                    <ul class="navbar-nav mr-auto">
+                            <li class="nav-item active"><a class="nav-link" href="Home-Made.html"><span class="fa fa-home fa-lg"></span> Home</a></li>
+                            <li class="nav-item"><a class="nav-link" href="Our-Menu.html"><span class="fa fa-list fa-lg"></span> Menu</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#reserveid"><span class="fa fa-ticket fa-lg"></span> Reservation</a></li>
+                            <li class="nav-item"><a class="nav-link" href="Location-info.html"><span class="fa fa-address-card fa-lg"></span> Contact</a></li>
+                            <li class="nav-item">
+                                <a class="nav-link" data-toggle="modal" data-target="#loginModal"
+                                href="">
+                                    <span class="fa fa-sign-in"></span>Login
+                                </a>
+                            </li>
+                    </ul>
+                     
+                </div>
+            </div>
+          </nav>
+
+          <div id="loginModal" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg" role="content">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">
+                        Login
+                    </h4>
+                    <button type="button" class="close" data-dismiss="modal">
+                        &times;
+                    </button>
+                </div>
+                <div class="modal-body">
+                    
+                   <form>
+                        <div class="form-row">
+                            <div class="form-group col-sm-4">
+                                    <label class="sr-only" for="exampleInputEmail3">Email address</label>
+                                    <input type="email" class="form-control form-control-sm mr-1" id="exampleInputEmail3" placeholder="Enter email">
+                            </div>
+                            <div class="form-group col-sm-4">
+                                <label class="sr-only" for="exampleInputPassword3">Password</label>
+                                <input type="password" class="form-control form-control-sm mr-1" id="exampleInputPassword3" placeholder="Password">
+                            </div>
+                            <div class="col-sm-auto">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox">
+                                    <label class="form-check-label"> Remember me
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <button type="button" class="btn btn-secondary btn-sm ml-auto" data-dismiss="modal">Cancel</button>
+                            <button type="submit" class="btn btn-primary btn-sm ml-1">Sign in</button>        
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+          <header class="jumbotron mb-0" style="">
+              <div class="container">
+
+                <div class="row">
+                  <div class="col-12 col-sm-6" style="margin-top: 35%; color: white">
+                    <h1><b>Experiance the Spices</b></h1><br>
+                    <h1><b>Experiance the Taste</b></h1><br>
+                    <h1><b>Experiance the Home</b></h1>
+                  </div>
+                  <div class="col-12 col-sm-6 align-self-center d-flex justify-content-center" style="margin-top: 35%">
+                    <a class="btn btn-primary btn-md pl-5 pr-5 pt-3 pb-3" href="#" role="button" type="submit" style="background-color: #ff5100; "><b>Order Now!!</b></a>
+                  </div>
+                </div>
+                  <!--<div class="row  align-self-center" style="position: relative;top: 400px">
+                      <div class="col-12 col-sm-4 experiance d-flex justify-content-center" style=""><h2><b>Experiance the Spices</b></h2></div>
+                      <div class="col-12 col-sm-4 experiance d-flex justify-content-center" style=""><h2><b>Experiance the Taste</b></h2></div>
+                      <div class="col-12 col-sm-4 experiance d-flex justify-content-center" style=""><h2><b>Experiance the Home</b></h2></div>
+                  </div>
+                  <div class="row">
+                      <div class="col-sm-3"></div> 
+                      <div class="col-sm-6 col-12 d-flex justify-content-center">
+                        <a class="btn btn-primary pl-5 pr-5 pt-2 pb-2" href="#" role="button" type="submit" style="position: relative;top: 550px; background-color: #ff5100; transition: 0.3s"><b>Order Now!!</b></a>
+                      </div>
+                      <div class="col-sm-3"></div>
+                 </div>-->             
+              </div>
+          </header>
+
+<div class="section main">
+
+          <div class="container-fluid">
+            <div class="row align-self-center mb-4"  style="height: 90px; background-color: transparent;">
+                <div class=" col-sm-6 col-12  d-flex justify-content-center text-white align-self-center" style="height: 60px; background-color:black; border-radius: 0px 30px 30px 0px" id="reserveid">
+                  <h2 class="align-self-center">Offers & Discounts</h2>
+                </div>
+                <div class="col-sm col"></div>
+            </div>
+          </div>
+
+
+        
+          <div class="container-fluid">
+          
+          <div class="row"> 
+                <div class="col-sm-3 col-12">
+                  <div class="card mb-3">
+                      <img class="card-img-top" src="exclusive.png" alt="Card image cap" height="260px">
+                      <div class="card-body" style="height: 200px">
+                        <h3 class="card-title">Members Exclusive</h3>
+                        <p class="card-text"><b>Become an Exclusive Member & <br> Get 20% off on your bill!!</b></p><br>
+                        <a href="#" class="btn btn-primary btn-md" type="submit">Sign Up</a>
+                      </div>
+                  </div>
+                </div>
+          </div>
+
+          <div class="row">
+              <div class="col-sm-3"></div>
+              <div class="col-sm-3 col-12">
+                <div class="card mb-3">
+                    <img class="card-img-top" src="tiffin1.png" alt="Card image cap" height="260px">
+                    <div class="card-body" style="height: 200px">
+                      <h3 class="card-title">Tiffin Box</h3>
+                      <p class="card-text"><b>10% Discount on new Subscriptions Avail Now!</b></p><br>
+                      <a href="#" class="btn btn-primary">Subscribe</a>
+                    </div>
+                </div>
+              </div>
+                <div class="col-sm-6"></div>
+          </div>
+
+            <div class="row">
+                <div class="col-sm-3"></div>
+                <div class="col-sm-3"></div>
+                <div class="col-sm-3 col-12">
+                  <div class="card mb-3">
+                      <img class="card-img-top" src="contactless.png" alt="Card image cap" height="260px">
+                      <div class="card-body" style="height: 200px">
+                        <h3 class="card-title">Order Online</h3>
+                        <p class="card-text"><b> Get 15% off <br> on your online order!</b></p><br>
+                        <a href="#" class="btn btn-primary">Order Now!</a>
+                      </div>
+                  </div>
+                </div>
+                <div class="col-sm-3 col"></div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-3"></div>
+                <div class="col-sm-3"></div>
+                <div class="col-sm-3"></div>
+                <div class="col-sm-3 col-12">
+                  <div class="card mb-3">
+                      <img class="card-img-top" src="gift.png" alt="Card image cap" height="260px">
+                      <div class="card-body" style="height: 200px">
+                        <h3 class="card-title">Gift Cards</h3>
+                        <p class="card-text"><b> Redeem Your Gift cards and Get exciting benefits!</b></p><br>
+                        <a href="#" class="btn btn-primary">Redeem</a>
+                      </div>
+                  </div>
+                </div>
+            </div>
+              
+            </div>
+         
+        
+            
+          
+
+
+          <div class="container-fluid">
+            <div class="row align-self-center mb-4"  style="height: 90px; background-color: transparent;">
+                <div class="col-sm-6"></div>
+                <div class="col-sm-6 col-12  d-flex justify-content-center text-white align-self-center" style="background-color: black; height: 60px; border-radius: 30px 0px 0px 30px" id="reserveid">
+                  <h2 class="align-self-center">Most Loved Dishes</h2>
+                </div>
+            </div>
+          </div>
+
+
+<div class="container">
+  <div class="row">
+
+
+        <div class="col-sm-3 col-12  mb-2">
+          <div class="card border-primary mb-3">
+                  <div class=" card-body col-sm-12 col-12">
+                    <img src="dish.jpg" height="220px" width="100%">
+                  </div>
+
+                  <div class="card-footer speacial-meal-content col-sm-12 col-12 text-white" style="background-color: #1b1b1b">
+                        <div class="inner-content d-flex justify-content-right pt-2 pb-2">
+                        <div class="pr-2"><i class="fa fa-cutlery" style="font-size:24px"></i></div>
+                        <h5>paneer butter masala</h5>
+                        </div>
+                        <hr>
+                        <div class="content-action col-sm-12">
+                              <div class="row">
+                                  <div class="col-sm-6 col-6">
+                                    <a href="" class="btn text-white" style="border-width: 2px; border-style: ridge; border-color: silver">View Details</a>
+                                  </div>
+                                  <div class="col-sm-6 col-6" >
+                                    <a href="" class="btn text-white" style="border-width: 2px; border-style: ridge; border-color: silver">Place Order</a>
+                                  </div>
+                              </div>
+                        </div>
+                  </div>
+          </div>
+        </div>
+
+        <div class="col-sm-3 col-12 mb-2">
+          <div class="card border-primary mb-3">
+                  <div class=" card-body col-sm-12 col-12">
+                    <img src="dish.jpg" height="220px" width="100%">
+                  </div>
+
+                  <div class="card-footer speacial-meal-content col-sm-12 col-12 text-white" style="background-color: #1b1b1b">
+                        <div class="inner-content d-flex justify-content-center pt-2 pb-2">
+                          <div class="pr-2"><i class="fa fa-cutlery" style="font-size:24px"></i></div>
+                        <h5>paneer butter masala</h5>
+                        </div>
+                        <hr>
+                        <div class="content-action col-sm-12">
+                              <div class="row">
+                                  <div class="col-sm-6 col-6" >
+                                    <a href="" class="btn text-white" style="border-width: 2px; border-style: ridge; border-color: silver">View Details</a>
+                                  </div>
+                                  <div class="col-sm-6 col-6" >
+                                    <a href="" class="btn text-white" style="border-width: 2px; border-style: ridge; border-color: silver">Place Order</a>
+                                  </div>
+                              </div>
+                        </div>
+                  </div>
+          </div>
+        </div>
+
+        <div class="col-sm-3 col-12">
+          <div class="card border-primary mb-3">
+                  <div class=" card-body col-sm-12 col-12">
+                    <img src="dish.jpg" height="220px" width="100%">
+                  </div>
+
+                  <div class="card-footer speacial-meal-content col-sm-12 col-12 text-white" style="background-color: #1b1b1b">
+                        <div class="inner-content d-flex justify-content-center pt-2 pb-2">
+                          <div class="pr-2"><i class="fa fa-cutlery" style="font-size:24px"></i></div>
+                        <h5>paneer butter masala</h5>
+                        </div>
+                        <hr>
+                        <div class="content-action col-sm-12">
+                              <div class="row">
+                                  <div class="col-sm-6 col-6" >
+                                    <a href="" class="btn text-white" style="border-width: 2px; border-style: ridge; border-color: silver">View Details</a>
+                                  </div>
+                                  <div class="col-sm-6 col-6" >
+                                    <a href="" class="btn text-white" style="border-width: 2px; border-style: ridge; border-color: silver">Place Order</a>
+                                  </div>
+                              </div>
+                        </div>
+                  </div>
+          </div>
+        </div>
+
+        <div class="col-sm-3 col-12">
+          <div class="card border-primary mb-3">
+                  <div class=" card-body col-sm-12 col-12">
+                    <img src="dish.jpg" height="220px" width="100%">
+                  </div>
+
+                  <div class="card-footer speacial-meal-content col-sm-12 col-12 text-white" style="background-color: #1b1b1b">
+                        <div class="inner-content d-flex justify-content-right pt-2 pb-2">
+                          <div class="pr-2"><i class="fa fa-cutlery" style="font-size:24px"></i></div>
+                          <h5>paneer butter masala</h5>
+                        </div>
+                        <hr>
+                        <div class="content-action col-sm-12">
+                              <div class="row">
+                                  <div class="col-sm-6 col-6" >
+                                    <a href="" class="btn text-white" style="border-width: 2px; border-style: ridge; border-color: silver">View Details</a>
+                                  </div>
+                                  <div class="col-sm-6 col-6" >
+                                    <a href="" class="btn text-white" style="border-width: 2px; border-style: ridge; border-color: silver">Place Order</a>
+                                  </div>
+                              </div>
+                        </div>
+                  </div>
+          </div>
+        </div>
+
+        <div class="col-sm-3 col-12">
+          <div class="card border-primary mb-3">
+                  <div class=" card-body col-sm-12 col-12">
+                    <img src="paneer.jpg" height="220px" width="100%">
+                  </div>
+
+                  <div class="card-footer speacial-meal-content col-sm-12 col-12 text-white" style="background-color: #1b1b1b">
+                        <div class="inner-content d-flex justify-content-center pt-2 pb-2">
+                          <div class="pr-2"><i class="fa fa-cutlery" style="font-size:24px"></i></div>
+                        <h5>paneer butter masala</h5>
+                        </div>
+                        <hr>
+                        <div class="content-action col-sm-12">
+                              <div class="row">
+                                  <div class="col-sm-6 col-6" >
+                                    <a href="" class="btn text-white" style="border-width: 2px; border-style: ridge; border-color: silver">View Details</a>
+                                  </div>
+                                  <div class="col-sm-6 col-6" >
+                                    <a href="" class="btn text-white" style="border-width: 2px; border-style: ridge; border-color: silver">Place Order</a>
+                                  </div>
+                              </div>
+                        </div>
+                  </div>
+          </div>
+        </div>
+
+        <div class="col-sm-3 col-12">
+          <div class="card border-primary mb-3">
+                  <div class=" card-body col-sm-12 col-12">
+                    <img src="paneer.jpg" height="220px" width="100%">
+                  </div>
+
+                  <div class="card-footer speacial-meal-content col-sm-12 col-12 text-white" style="background-color: #1b1b1b">
+                        <div class="inner-content d-flex justify-content-center pt-2 pb-2">
+                          <div class="pr-2"><i class="fa fa-cutlery" style="font-size:24px"></i></div>
+                        <h5>paneer butter masala</h5>
+                        </div>
+                        <hr>
+                        <div class="content-action col-sm-12">
+                              <div class="row">
+                                  <div class="col-sm-6 col-6" >
+                                    <a href="" class="btn text-white" style="border-width: 2px; border-style: ridge; border-color: silver">View Details</a>
+                                  </div>
+                                  <div class="col-sm-6 col-6" >
+                                    <a href="" class="btn text-white" style="border-width: 2px; border-style: ridge; border-color: silver">Place Order</a>
+                                  </div>
+                              </div>
+                        </div>
+                  </div>
+          </div>
+        </div>
+
+        <div class="col-sm-3 col-12">
+          <div class="card border-primary mb-3">
+                  <div class=" card-body col-sm-12 col-12">
+                    <img src="paneer.jpg" height="220px" width="100%">
+                  </div>
+
+                  <div class="card-footer speacial-meal-content col-sm-12 col-12 text-white" style="background-color: #1b1b1b">
+                        <div class="inner-content d-flex justify-content-center pt-2 pb-2">
+                          <div class="pr-2"><i class="fa fa-cutlery" style="font-size:24px"></i></div>
+                        <h5>paneer butter masala</h5>
+                        </div>
+                        <hr>
+                        <div class="content-action col-sm-12">
+                              <div class="row">
+                                  <div class="col-sm-6 col-6" >
+                                    <a href="" class="btn text-white" style="border-width: 2px; border-style: ridge; border-color: silver">View Details</a>
+                                  </div>
+                                  <div class="col-sm-6 col-6" >
+                                    <a href="" class="btn text-white" style="border-width: 2px; border-style: ridge; border-color: silver">Place Order</a>
+                                  </div>
+                              </div>
+                        </div>
+                  </div>
+          </div>
+        </div>
+
+        <div class="col-sm-3 col-12">
+          <div class="card border-primary">
+                  <div class=" card-body col-sm-12 col-12">
+                    <img src="paneer.jpg" height="220px" width="100%">
+                  </div>
+
+                  <div class="card-footer speacial-meal-content col-sm-12 col-12 text-white" style="background-color: #1b1b1b">
+                        <div class="inner-content d-flex justify-content-right pt-2 pb-2">
+                        <div class="pr-2"><i class="fa fa-cutlery" style="font-size:24px"></i></div>
+                        <h5>Paneer butter masala</h5>
+                        </div>
+                        <hr>
+                        <div class="content-action col-sm-12">
+                              <div class="row">
+                                  <div class="col-sm-6 col-6" >
+                                    <a href="" class="btn text-white" style="border-width: 2px; border-style: ridge; border-color: silver">View Details</a>
+                                  </div>
+                                  <div class="col-sm-6 col-6" >
+                                    <a href="" class="btn text-white" style="border-width: 2px; border-style: ridge; border-color: silver">Place Order</a>
+                                  </div>
+                              </div>
+                        </div>
+                  </div>
+          </div>
+        </div>
+
+
+        <div class="col-sm-12 col-12 mt-4 mb-5 d-flex justify-content-center">
+          <a href="Our-Menu.html" class="btn btn-success">View Full Menu</a>
+        </div>
+  </div>
+</div>
+
+
+
+
+
+          <div class="container-fluid">
+            <div class="row align-self-center mb-4"  style="height: 90px; background-color: transparent;">
+                <div class=" col-sm-6 col-12  d-flex justify-content-center text-white align-self-center" style="height: 60px; background-color:black; border-radius: 0px 30px 30px 0px" id="reserveid">
+                  <h2 class="align-self-center">Our Gallery</h2>
+                </div>
+                <div class="col-sm col"></div>
+            </div>
+          </div>
+          
+          
+         <!-- ======= Gallery Section ======= -->
+
+           <div class="container">
+                                                    <!-- carousel-->
+        <div class="row row-content">
+            <div class="col">
+                <div id="mycarousel" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner" role="listbox">
+
+                        <div class="carousel-item active">
+                            <img class="d-block img-fluid" src="A.jpg">
+                             <a href="#" class="btn btn-success">
+                              Order Now</a>
+                        </div>
+
+                        <div class="carousel-item">
+                             <img class="d-block img-fluid" src="D.jpg">
+                             <a href="#" class="btn btn-success">
+                              Order Now</a>
+                        </div>
+
+                        <div class="carousel-item">
+                             <img class="d-block img-fluid" src="C.jpg">
+                             <a href="#" class="btn btn-success">
+                              Order Now</a>
+                        </div>
+
+                        <div class="carousel-item">
+                             <img class="d-block img-fluid" src="paneer.jpg">
+                             <a href="#" class="btn btn-success">
+                              Order Now</a>
+                        </div>
+
+                        <div class="carousel-item">
+                             <img class="d-block img-fluid" src="F.jpg">
+                             <a href="#" class="btn btn-success">
+                              Order Now</a>
+                        </div>
+
+                        <div class="carousel-item">
+                             <img class="d-block img-fluid" src="G.jpg">
+                             <a href="#" class="btn btn-success">
+                              Order Now</a>
+                        </div>
+
+                        <ol class="carousel-indicators">
+                            <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
+
+                            <li data-target="#mycarousel" data-slide-to="1"></li>
+
+                            <li data-target="#mycarousel" data-slide-to="2"></li>
+
+                            <li data-target="#mycarousel" data-slide-to="3"></li>
+
+                            <li data-target="#mycarousel" data-slide-to="4"></li>
+
+                            <li data-target="#mycarousel" data-slide-to="5"></li>
+                        </ol>
+                         <a class="carousel-control-prev" href="#mycarousel" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </a>
+                        
+                        <a class="carousel-control-next" href="#mycarousel" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </a>
+                        
+                        <button class="btn btn-danger btn-sm" id="carouselButton">
+                        <span id="carousel-button-icon" class="fa fa-pause"></span>
+                        </button>
+                        
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+      </div>
+
+      <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" id="box9" style="background-color: transparent;">                     <!--horizontal line ablove footer-->
+          <hr>
+      </div>
+</div>
+            
+
+
+        
+      
+
+
+         <footer id="footer">
+          <div class="footer-top">
+            <div class="container">
+              <div class="row">
+
+                <div class="col-lg-3 col-md-6 col-12s">
+                      <div class="footer-info"  style="margin-top: 20px">
+                        <p style="font-size: 23px">HOME MADE</p>
+                        <p style="font-style: 10px">FINE DINING</p> <br>
+                        <p>
+                           104 Sanchayani Complex,<br>
+                          Ring Road,<br>
+                          Trimurti Nagar,
+                          Nagpur - 440022 <br>
+                          <strong>Phone:</strong>+919860764333<br>
+                          <strong>Email:</strong>support@sacchidanandutech.com <br>
+                        </p>  
+                        <div class="social-links mt-3" >
+                          <a href="#" class="twitter"><i class="fa fa-twitter fa-sm"></i></a>
+                          <a href="#" class="facebook"><i class="fa fa-facebook fa-sm"></i></a>
+                          <a href="#" class="instagram"><i class="fa fa-instagram fa-sm"></i></a>
+                          
+                        </div>
+                      </div>
+                </div>
+
+                <div class="col-lg-2 col-md-6 col-6 footer-links" style="margin-top: 20px">
+                  
+                  <ul>
+                    <li>
+                      <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-forward-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M9.77 12.11l4.012-2.953a.647.647 0 0 0 0-1.114L9.771 5.09a.644.644 0 0 0-.971.557V6.65H2v3.9h6.8v1.003c0 .505.545.808.97.557z"/>
+                      </svg><a href="#">Home</a>
+                    </li>
+                    <li><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-forward-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M9.77 12.11l4.012-2.953a.647.647 0 0 0 0-1.114L9.771 5.09a.644.644 0 0 0-.971.557V6.65H2v3.9h6.8v1.003c0 .505.545.808.97.557z"/>
+                        </svg> <a href="#">Offers</a></li>
+                    <li><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-forward-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M9.77 12.11l4.012-2.953a.647.647 0 0 0 0-1.114L9.771 5.09a.644.644 0 0 0-.971.557V6.65H2v3.9h6.8v1.003c0 .505.545.808.97.557z"/>
+                        </svg> <a href="#">Gallery</a></li>
+                    <li><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-forward-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M9.77 12.11l4.012-2.953a.647.647 0 0 0 0-1.114L9.771 5.09a.644.644 0 0 0-.971.557V6.65H2v3.9h6.8v1.003c0 .505.545.808.97.557z"/>
+                        </svg> <a href="#">Reservation</a></li>
+                  
+                  </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-6 footer-links" style="margin-top: 20px">
+                  
+                  <ul>
+                    <li><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-forward-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M9.77 12.11l4.012-2.953a.647.647 0 0 0 0-1.114L9.771 5.09a.644.644 0 0 0-.971.557V6.65H2v3.9h6.8v1.003c0 .505.545.808.97.557z"/>
+                        </svg> <a href="#">Contact Us</a></li>
+                    <li><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-forward-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M9.77 12.11l4.012-2.953a.647.647 0 0 0 0-1.114L9.771 5.09a.644.644 0 0 0-.971.557V6.65H2v3.9h6.8v1.003c0 .505.545.808.97.557z"/>
+                        </svg> <a href="#">Location</a></li>
+                    <li><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-forward-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M9.77 12.11l4.012-2.953a.647.647 0 0 0 0-1.114L9.771 5.09a.644.644 0 0 0-.971.557V6.65H2v3.9h6.8v1.003c0 .505.545.808.97.557z"/>
+                        </svg> <a href="#">Terms & Conditions</a></li>
+                    <li><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-forward-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M9.77 12.11l4.012-2.953a.647.647 0 0 0 0-1.114L9.771 5.09a.644.644 0 0 0-.971.557V6.65H2v3.9h6.8v1.003c0 .505.545.808.97.557z"/>
+                        </svg> <a href="#">About us</a></li>
+                   
+                  </ul>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-12 footer-newsletter" style="margin-top: 20px">
+                  <h4>Sign Up</h4>
+                  <p>To get updates from Home Made.</p>
+                  <form action="" method="post">
+                    <input type="email" name="email"><input type="submit" value="subscribe">
+                  </form>
+
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="container">
+            <div class="copyright">
+              &copy; Copyright <strong><span>Home Made</span></strong>. All Rights Reserved
+            </div>
+        
+          </div>
+        </footer><!-- End Footer -->
+
+
+        
+  
+
+          <a href="#" class="back-to-top" style="text-decoration: none;"><i class="bx bx-up-arrow-alt"></i></a>
+    
+
+
+
+ 
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+
+<script>
+        $(document).ready(function(){
+            $("#mycarousel").carousel({interval : 3500});
+                $("#carouselButton").click(function(){
+                if ($("#carouselButton").children("span").hasClass('fa-pause')) {
+                    $("#mycarousel").carousel('pause');
+                    $("#carouselButton").children("span").removeClass('fa-pause');
+                    $("#carouselButton").children("span").addClass('fa-play');
+                }
+                else if ($("#carouselButton").children("span").hasClass('fa-play')){
+                    $("#mycarousel").carousel('cycle');
+                    $("#carouselButton").children("span").removeClass('fa-play');
+                    $("#carouselButton").children("span").addClass('fa-pause');                    
+                }
+            });
+        });
+
+</script>      
+      
+    
+     
+      <script src="Restaurantly/assets/js/main.js"></script>
+
+
+
+
+
+
+      
+</body>
+</html>
